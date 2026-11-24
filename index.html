@@ -1,33 +1,145 @@
-<!doctype html>
-<html class="no-js" lang="">
-
+<!DOCTYPE html>
+<html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marca Personal | Estudio Creativo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <meta name="description" content="">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-  <meta property="og:image:alt" content="">
-
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
-
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
 </head>
-
 <body>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/app.js"></script>
+<!-- Navegación -->
+<header class="navbar">
+  <div class="logo">✦ MiMarca</div>
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#acerca">Acerca de</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#portafolio">Portafolio</a>
+    <a href="#contacto" class="nav-cta">Contacto</a>
+  </nav>
+</header>
+
+<!-- Inicio / Portada -->
+<section id="inicio" class="hero">
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="hero-content">
+    <span class="badge">✨ Creatividad &amp; Estrategia Digital</span>
+    <h1>Ideas que conectan, <br><span>marcas que inspiran.</span></h1>
+    <p>Transformo conceptos en identidades visuales memorables y campañas creativas diseñadas para destacar en el mundo digital.</p>
+    <div class="hero-buttons">
+      <a href="#portafolio" class="btn-primary">Ver Portafolio</a>
+      <a href="#contacto" class="btn-secondary">Trabajemos juntos</a>
+    </div>
+  </div>
+</section>
+
+<!-- Acerca de -->
+<section id="acerca" class="section about">
+  <div class="container about-grid">
+    <div class="about-image">
+      <!-- Cambia el src por una foto real en tu carpeta img/foto.jpg -->
+      <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=600&q=80" alt="Espacio creativo">
+    </div>
+    <div class="about-text">
+      <span class="section-tag">Acerca de mí</span>
+      <h2>Hola, soy [Nombre de tu novia]</h2>
+      <p>Apasionada por la comunicación visual, el diseño y la creación de contenido con propósito. Mi enfoque combina estética fresca con estrategia clara para ayudar a proyectos y emprendimientos a encontrar su propia voz.</p>
+      <div class="stats">
+        <div class="stat-box">
+          <strong>+15</strong>
+          <span>Proyectos creativos</span>
+        </div>
+        <div class="stat-box">
+          <strong>100%</strong>
+          <span>Diseño original</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Servicios -->
+<section id="servicios" class="section services">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Servicios</span>
+      <h2>¿Cómo puedo ayudarte?</h2>
+    </div>
+    <div class="cards-grid">
+      <article class="card">
+        <div class="icon">🎨</div>
+        <h3>Identidad de Marca</h3>
+        <p>Desarrollo de logotipos, paletas de color, tipografías y manuales visuales coherentes con la personalidad de tu marca.</p>
+      </article>
+      <article class="card">
+        <div class="icon">📱</div>
+        <h3>Contenido &amp; Redes</h3>
+        <p>Planeación creativa, diseño de publicaciones y textos publicitarios pensados para generar comunidad y alcance.</p>
+      </article>
+      <article class="card">
+        <div class="icon">🚀</div>
+        <h3>Campañas Promocionales</h3>
+        <p>Estrategias de lanzamiento y comunicación visual para dar a conocer productos o servicios de forma atractiva.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Portafolio -->
+<section id="portafolio" class="section portfolio">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Portafolio</span>
+      <h2>Proyectos Destacados</h2>
+    </div>
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=600&q=80" alt="Proyecto Branding">
+        <div class="portfolio-info">
+          <span>Branding</span>
+          <h3>Rediseño de Identidad</h3>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&w=600&q=80" alt="Proyecto Social Media">
+        <div class="portfolio-info">
+          <span>Social Media</span>
+          <h3>Campaña de Lanzamiento</h3>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&w=600&q=80" alt="Proyecto Web">
+        <div class="portfolio-info">
+          <span>Dirección Creativa</span>
+          <h3>Catálogo Digital</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contacto -->
+<section id="contacto" class="section contact">
+  <div class="container contact-box">
+    <span class="section-tag">Contacto</span>
+    <h2>¿Tienes una idea en mente?</h2>
+    <p>Escríbeme y hagamos que tu proyecto cobre vida.</p>
+    <div class="contact-links">
+      <a href="mailto:correo@ejemplo.com" class="btn-primary">✉ Enviar Correo</a>
+      <a href="#" class="btn-secondary">Instagram</a>
+      <a href="#" class="btn-secondary">LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 MiMarca — Todos los derechos reservados.</p>
+</footer>
 
 </body>
-
 </html>
